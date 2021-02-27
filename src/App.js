@@ -112,6 +112,7 @@ function App() {
 
   function getSmallDataServer() {
     if (data.length !== 0) {
+      deleteClass()
       selectFirstElement();
     }
     setErrorSearch(false);
@@ -126,6 +127,7 @@ function App() {
 
   function handleBigVolume() {
     if (data.length !== 0) {
+      deleteClass()
       selectFirstElement();
     }
 
