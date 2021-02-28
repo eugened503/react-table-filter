@@ -31,7 +31,7 @@ function Header({ keyPressHandler }) {
         onClick={findInput}
         disabled={!valueInput}
       >
-        Button
+        Найти
       </button>
     </div>
   );
